@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var dias=parseInt(prompt("ingrese la cantidad de dias"))
+        var hotel=parseFloat(prompt("ingrese el precio del hotel"))
+        var comida=parseFloat(prompt("ingrese el precio de comida"))
+
+
+        precio_diario= dias*100000
+        precio_hotel= dias*hotel
+        precio_comida= dias*comida
+        cheque= precio_hotel+precio_comida+precio_diario
+        alert("por gastos diarios se debe dar: "+precio_diario+", por hotel: "+precio_hotel+", por comida: "+precio_comida+" y el cheque final deberia ser de: "+cheque)
+
+        
+    </script>
+</body>
+</html>
